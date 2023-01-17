@@ -1,0 +1,9 @@
+impdp system/[YOUR PASSWORD HERE]@MCRSPOS dumpfile=microsdb.dmp logfile=mcrspos.log schemas=dbcreate
+impdp system/[YOUR PASSWORD HERE]@MCRSPOS dumpfile=mcrscache.dmp logfile=mcrscacheimp.log schemas=dbcache
+impdp system/[YOUR PASSWORD HERE]@MCRSPOS dumpfile=rta.dmp logfile=rtaimp.log schemas=rta
+impdp system/[YOUR PASSWORD HERE]@MCRSPOS dumpfile=portaldb.dmp logfile=portaldbdmp.log schemas=portaldb
+impdp system/[YOUR PASSWORD HERE]@MCRSPOS dumpfile=coredb.dmp logfile=coredbdmp.log schemas=coredb
+impdp system/[YOUR PASSWORD HERE]@MCRSPOS dumpfile=locdb.dmp logfile=locdbdmp.log schemas=location_activity_db
+impdp system/[YOUR PASSWORD HERE]@MCRSPOS dumpfile=birepos.dmp logfile=bireposdmp.log schemas=birepos
+impdp system/[YOUR PASSWORD HERE]@MCRSPOS dumpfile=quartz.dmp logfile=quartzdmp.log schemas=quartz
+impdp system/[YOUR PASSWORD HERE]@MCRSPOS dumpfile=Aggregate_db.dmp logfile=Aggregate_dbdmp.log schemas=Aggregate_db
